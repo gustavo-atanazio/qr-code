@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    min-height: 100vh;
 }
 
 .container {
@@ -25,12 +26,12 @@ body {
     padding: 1em;
     border-radius: 18px;
     gap: 1em;
-    width: 19em;
-    height: 30.2em;
+    max-width: 19em;
 }
 
 .container img {
     border-radius: 14px;
+    max-width: 100%;
 }
 
 .title {
